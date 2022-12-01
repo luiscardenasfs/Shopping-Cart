@@ -1,9 +1,9 @@
-import Button from '@mui/material/Button' 
-import { type } from '@testing-library/user-event/dist/type'
+import Button from '@mui/material/Button';
+import { type } from '@testing-library/user-event/dist/type';
 // Types
-import { CartItemType } from '../App'
+import { CartItemType } from '../App';
 // Styles
-import { Wrapper } from '../App.styles'
+import { Wrapper } from './item.styles';
 
 type Props = {
     item: CartItemType;
